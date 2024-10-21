@@ -1,0 +1,626 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.bg-img {
+  background-image: url("img/whatsapp.jpg");
+  background-color: rgba(0, 0, 0, 0.8);
+  min-height: 650px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+.nav .nav-1 {
+  width: 56%;
+  height: 60px;
+  margin-left: 78%;
+  margin-top: -5%;
+}
+
+.nav-1 a {
+  padding-left: 20px;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+
+}
+.nav-1 a:hover{
+  color: #ff5100;
+}
+
+
+.nav-logo {
+  display: inline;
+  padding-left: 80px;
+  padding-top: 10px;
+  top: 5px;
+  position: absolute;
+}
+
+.btn {
+  height: 40px;
+  width: 120px;
+  color: white;
+  border: 1px solid white;
+  background-color: #ff5100;
+  font-size: 16px;
+  padding: 5px 10px;
+  position: absolute;
+  top: 5px;
+  right: 100px;
+  z-index: 20;
+
+}
+
+.btn:hover {
+  border: black;
+  color: black;
+}
+
+.nav .mid {
+  width: 54%;
+  height: 429px;
+  /* background-color: white; */
+  margin-left: 47%;
+  margin-top: 4%;
+}
+
+.nav .mid p {
+  text-align: center;
+  color: white;
+  font-size: 17px;
+}
+
+.nav .mid img {
+  padding-top: 13px;
+}
+
+.nav .mid span {
+  margin-left: 115px;
+  font-size: 20px;
+  margin-top: 25px;
+  color: white;
+}
+
+.nav .mid h3 {
+  text-align: center;
+  padding-top: 60px;
+  color: white;
+
+}
+
+.nav .mid h3:hover {
+  color: #ff5100;
+}
+
+.box {
+  width: 85%;
+  height: 140px;
+  background-color: white;
+  top: 80%;
+  margin-left: 8%;
+  position: absolute;
+  box-shadow: -1px -0px 10px rgb(103, 100, 100);
+}
+
+.in {
+  font-size: 20px;
+  margin-left: 25px;
+  margin-top: 42px;
+
+}
+
+.btn-one {
+  width: 25%;
+  height: 45px;
+  margin-top: 5px;
+  margin-left: 20px;
+  padding-left: 20px;
+  font-size: 20px;
+  text-align: left;
+  border: 1px solid black;
+}
+
+.out {
+  font-size: 20px;
+  margin-left: 28%;
+  margin-top: -75px;
+
+
+}
+
+.btn-two {
+  width: 25%;
+  height: 45px;
+  margin-top: 8px;
+  margin-left: 28%;
+  padding-left: 20px;
+  font-size: 20px;
+  text-align: left;
+  border: 1px solid black;
+}
+
+.guest {
+  font-size: 18px;
+  margin-left: 55%;
+  margin-top: -73px;
+}
+
+.box input {
+  width: 26%;
+  height: 50px;
+  margin-left: 55%;
+  margin-top: 4px;
+  padding-left: 5px;
+  background-color: rgb(233, 231, 231);
+  border: 1px solid black;
+  position: absolute;
+}
+
+.search {
+  height: 58px;
+  width: 12%;
+  margin-left: 85%;
+  margin-top: -10px;
+  position: relative;
+  font-size: 20px;
+  background-color: white;
+}
+
+.search:hover {
+  background-color: black;
+  color: white;
+}
+
+.box-1 h3 {
+  margin-top: 250px;
+  text-align: center;
+}
+
+.box-1 h1 {
+  margin: 15px;
+  text-align: center;
+}
+
+.box-1 .demo-1 {
+  height: 250px;
+  width: 210px;
+  background-color: white;
+  margin-left: 5%;
+  display: inline-block;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.box-1 .demo-1 img {
+  width: 70px;
+  height: 70px;
+  margin-left: 70px;
+}
+
+.box-1 .demo-1 .top {
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.box-1 .demo-1 .text {
+  padding-top: 10px;
+}
+
+.box-1 .contact {
+  font-size: 15px;
+  background-color: white;
+  margin-left: 45%;
+  text-align: center;
+  width: 100px;
+  height: 30px;
+  padding-top: 10px;
+}
+
+.box-1 .contact:hover {
+  background-color: #ff5100;
+}
+
+.container-box {
+  position: absolute;
+}
+
+.box-2 {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 35%;
+  height: 500px;
+  margin-left: 200px;
+  margin-top: 80px;
+  position: relative;
+}
+
+.box-2-1 {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 35%;
+  height: 500px;
+  background-color: antiquewhite;
+  margin-left: 818px;
+  margin-top: -450px;
+  position: relative;
+}
+
+.box-2-1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.box-2-3 {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 35%;
+  height: 500px;
+  background-color: antiquewhite;
+  margin-left: 200px;
+  margin-top: -27px;
+
+}
+
+.box-2-3 img {
+  width: 100%;
+  height: 100%;
+}
+
+.box-2-4 {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 35%;
+  height: 450px;
+  background-color: antiquewhite;
+  margin-left: 817px;
+  margin-top: -455px;
+  position: relative;
+}
+
+.box-2-4 img {
+  width: 100%;
+  height: 100%;
+}
+
+.box-2 .about {
+  font-size: large;
+  position: absolute;
+  margin-top: 120px;
+}
+
+.box-2 h1 {
+
+  position: absolute;
+  margin-top: 40px;
+}
+
+.box-2 .box-arrow {
+  width: 150px;
+  height: 40px;
+  background-color: #ff5100;
+  margin-top: 70%;
+  text-align: center;
+  padding-top: 9px;
+  color: white;
+}
+
+.box-2 .box-arrow:hover {
+  color: white;
+  background-color: black;
+}
+
+.box2 .bi {
+  padding-top: 3px;
+  position: absolute;
+}
+
+.view {
+  margin-top: 150px;
+  margin-left: 190px;
+  width: 10%;
+  height: 40px;
+  background-color: #ff5100;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+.view:hover {
+  background-color: black;
+}
+
+.view a {
+  text-decoration: none;
+  color: white;
+
+
+}
+
+/* container-room */
+.container-room {
+  width: 78%;
+  height: 485px;
+  margin-top: 10px;
+  margin-left: 180px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-room {
+  height: 235px;
+  width: 32%;
+  background-color: red;
+  margin-left: 10px;
+}
+.box-room img{
+  width: 100%;
+  height: 100%;
+}
+.container-explor{
+  width: 78%;
+  height: 1700px;
+  margin-top: 130px;
+  margin-left: 180px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.rani{
+  height: 595px;
+  width: 45%;
+  margin-left: 10px;
+}
+.rani h1{
+  font-size:50px;
+}
+.container-explor p,span{
+font-size: 19px;
+padding-top:15px ;
+}
+.rani img{
+  width:100% ;
+  height: 300px;
+  padding-top: 35px;
+}
+.container-explor h3{
+  padding-top: 20px;
+}
+
+.swoyambhu{
+  height: 414px;
+  width: 45%;
+  margin-left: 100px;
+}
+.swoyambhu img{
+  width: 100%;
+  height: 300px;
+}
+.boudha{
+  height: 440px;
+  width: 45%;
+  margin-left: 10px;
+  margin-top: -92px;
+  position: relative;
+}
+.boudha img{
+  width: 100%;
+  height:300px ;
+}
+.pashupati{
+  height: 414px;
+  width: 45%;
+  margin-left: 100px;
+  margin-top: -274px;
+  position: relative;
+
+}
+.pashupati img{
+  width: 100%;
+  height:300px;
+}
+.durbar{
+  height: 432px;
+  width: 45%;
+  margin-left: 10px;
+  margin-top: -92px;
+}
+.durbar img{
+  width: 100%;
+  height: 300px;
+}
+.basantapur{
+  height: 650px;
+  width: 45%;
+  margin-left: 100px;
+  margin-top:-308px;
+}
+.basantapur img{
+  width: 100%;
+  height:300px;
+}
+.container-explor .basantapur .btn6{
+  height: 40px;
+  width: 120px;
+  color: white;
+  border:none;
+  background-color: #ff5100;
+  font-size: 16px;
+  display: block;
+  margin-top: 80px;
+}
+.container-explor .basantapur .btn6:hover{
+  border:2px solid black ;
+  color: black;
+}
+
+
+/* for footer */
+
+.container-foot {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 40px;
+  margin-bottom: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: black;
+}
+
+.box-foot {
+  width: 17%;
+  height: 400px;
+  /* background-color: antiquewhite; */
+
+}
+
+.box-foot img {
+  height: 90px;
+  width: 90%;
+}
+
+.box-foot p {
+  padding-top: 20px;
+  color: white;
+}
+
+.box-foot button {
+  background-color: #ff5100;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border: white solid 2px;
+  margin-top: 60px;
+}
+
+.box-foot button:hover {
+  background-color: black;
+}
+
+.box-foot h2 {
+  padding-top: 70px;
+  color: white;
+}
+
+.box-foot .get {
+  font-size: 25px;
+}
+
+.box-foot .get:hover {
+  color: #ff5100;
+}
+
+.box-foot .social {
+  padding-top: 20px;
+  padding-left: 2px;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+
+}
+
+.box-foot .social:hover {
+  color: #ff5100;
+}
+
+.box-foot .social1 {
+  padding-top: -1px;
+  padding-left: 50px;
+  font-size: 20px;
+  color: white;
+  /* position: relative; */
+}
+
+.box-foot .social1:hover {
+  color: #ff5100;
+}
+
+.box-foot a {
+  color: white;
+  margin-top: 15px;
+  text-decoration: none;
+  display: block;
+  padding-left: 2px;
+}
+
+.box-foot a:hover {
+  color: #ff5100;
+}
+
+.box-foot .clock .bi {
+  background-color: #ff5100;
+  
+}
+
+.box-foot span {
+  padding-left: 20px;
+  font-size: 17px;
+  color: white;
+}
+
+.box-foot .contact {
+  padding-top: 10px;
+  padding-left: 2px;
+}
+
+.box-foot .phone {
+  font-size: 20px;
+  word-spacing: 10px;
+}
+
+.box-foot .phone .bi {
+  background-color: #ff5100;
+}
+
+.box-foot .num {
+  padding-top: 2px;
+}
+
+.box-foot .email {
+  font-size: 20px;
+}
+
+.box-foot .com {
+
+  color: white;
+  padding-left: 5px;
+}
+
+.box-foot .email .bi {
+  background-color: #ff5100;
+}
+
+.box-foot-u {
+  width: 96%;
+  height: 100px;
+  background-color: black;
+  margin-bottom: 2px;
+  margin-left: 30px;
+
+}
+
+.box-foot-u .left {
+  color: white;
+  padding-top: 50px;
+  padding-left: 45px;
+  width: 30%;
+  display: inline;
+  position: absolute;
+
+}
+
+.box-foot-u .right {
+  display: inline;
+  color: white;
+  padding-left: 1195px;
+  display: inline;
+  padding-top: 50px;
+  position: absolute;
+}
